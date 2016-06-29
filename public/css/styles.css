@@ -1,0 +1,29 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: url(/images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+html, body, .container-table {
+  height: 100%;
+}
+.container-table {
+  display: table;
+}
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle;
+}
+h1 a {
+  font-size: 52px;
+  font-weight: 700;
+}
+h1 a:hover, h1 a:focus, h1 a:active {
+  text-decoration: none;
+}
+form {
+  margin-bottom: 20px;
+}
+.alert {
+  text-align: center;
+  text-transform: uppercase;
+}

@@ -1,3 +1,7 @@
 <%= erb :index %>
 <% @fizzed_number = fizzbuzz(@number) %>
-<div class="text-center"><%= @fizzed_number %></div>
+<% if @fizzed_number == "Not a valid number" %>
+  <div class="alert alert-danger" role="alert"><%= @fizzed_number %></div>
+<% else %>
+  <div class="alert alert-success" role="alert"><%= @fizzed_number %></div>
+<% end %>

@@ -1,6 +1,7 @@
 require 'sinatra'
 require './lib/fizzbuzz.rb'
 
+set :public_folder, 'public'
 get ('/') do
   erb :index
 end
